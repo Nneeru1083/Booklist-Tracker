@@ -1,0 +1,138 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #555;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.favorites {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.favorites:hover {
+    background-color: #ff5252;
+}
+
+/* Content Bar Styles */
+.content-bar {
+    margin-top: 70px; /* Adjust based on navbar height */
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.bar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.bar-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bar-container p {
+    color: #666;
+}
+
+
+.library-page {
+    padding: 90px 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.book-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.book-title {
+    width: 100%;
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #222;
+    text-align: center;
+}
+
+.book-cover{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.book-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.book-rating {
+    font-size: 1.1rem;
+    color: #f5b301;
+    margin-bottom: 10px;
+}
+
+.book-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
