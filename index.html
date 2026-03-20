@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist-Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="library.html" class="navbar-link">Library</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search books..." class="search-input">
+            </div>
+            <a href="favorites.html" class="navbar-link favorites">Favorites</a>
+        </div>
+    </nav>
+
+
+    <!-- header-section area-->
+    <main class="library-page">
+        <section class="book-grid">
+            <!-- Book 1 -->
+            <article class="book-card">
+
+                <h3 class="book-title">Sinner Anonymous</h3>
+
+                <img src="picture/sinner anonymous.jpg" alt="sinner anonymous" class="book-cover">
+
+                <div class="book-rating" aria-label="4 out of 5 stars">★★★★☆</div>
+
+                <p class="book-description">My fiancé’s nephew knows every sin I’ve ever committed. He’s about to become
+                    the deepest and darkest of them all....
+                    <span class="dots">...</span>
+                    <span class="more-text" style="display:none"> My name is Rory Carter and I do bad things. There’s a
+                        charred soul under this angelic exterior and sometimes, I wonder if my weekly confessions to the
+                        Sinners Anonymous hotline will be enough to heal it. Marrying the seventy-something head of the
+                        Cosa Nostra to save my father is the only good deed I’ve ever done. I’m burning and bitter under
+                        the fake smile and tight dresses, but I was keeping it together. Was. Until my fiancé’s nephew
+                        turns up to dinner uninvited. Angelo ‘Vicious' Visconti. A beautiful monster with cheekbones as
+                        sharp as his tongue. They say I shouldn’t be scared of him, because nine years ago, he went
+                        straight. He’s barely a Made Man anymore. But I say, he’s the most dangerous Visconti of all.
+                        It’s not just because his cold sneer makes my pulse flutter. Or the way his syrupy drawl
+                        trickles down my spine. No. He holds all of my sins in his big, rough hands. And the only sins
+                        darker than mine are his own.</span>
+                </p>
+                <button onclick="toggleText(this)">Show More</button>
+            </article>
+            <!-- Book 2 -->
+
+            <article class="book-card">
+
+                <img src="picture/sinner condemed.jpg" alt="sinner-condemed" class="book-cover">
+
+                <h3 class="book-title">Sinner Condemed</h3>
+
+                <div class="book-rating" aria-label="5 out of 5 stars">★★★★★</div>
+
+                <p class="book-description">No good ever comes from a red-head in a stolen dress with her worldly
+                    possessions at her feet.
+                    <span class="dots">...</span>
+                    <span class="more-text" style="display:none">I should have known she was trouble when smoke and sin
+                        followed her into my bar and she challenged me to a game.
+
+                        She may have won my watch, but she started a war.
+
+                        As she slipped my Breitling off my wrist and onto her own, she gleefully announced she was the
+                        luckiest girl in the world.
+
+                        Yeah, lucky to everyone but me.
+
+                        Because the moment her muddy boots stomped down the stairs and up my spine, my empire started to
+                        crumble.
+
+                        My cashmere charm is wrinkling.
+
+                        My gentlemanly facade is cracking.
+
+                        My enemies are closing in.
+
+                        Maybe the gypsy was right:
+
+                        The Queen of Hearts will drag me down to hell.
+
+                        At least it’s wonderfully warm among the flames. </span>
+                </p>
+
+                <button onclick="toggleText(this)">Show More</button>
+            </article>
+            <!-- Book 3 -->
+            <article class="book-card">
+
+                <img src="picture/sinner consumed.jpg" alt="sinner-consumer" class="book-cover">
+
+                <h3 class="book-title">Sinner Consumed
+                </h3>
+
+                <div class="book-rating" aria-label="5 out of 5 stars">★★★★★</div>
+
+                <p class="book-description">My world is on fire, and I’m obsessed with the girl who lit the match..
+                    <span class="dots">...</span>
+                    <span class="more-text" style="display:none">Bloodied knuckles and a lifeless body at my feet
+                        confirm it: Penny is my demise.
+
+                        My gentlemanly facade is nothing but a memory.
+
+                        My sins are seeping through my shirt like ink.
+
+                        I tried to leave her. Couldn’t do it.
+
+                        I tried to snuff the life out of her. Couldn’t do that, either.
+
+                        So we’ll slow dance in the flames until I’m nothing but ash and embers.
+
+                        I’ll only rise like a phoenix when she’s gone.
+
+                        The problem is, I’d never let her go.
+
+                        No, she’d have to run far, far, away to escape me.
+
+                        And maybe she will if I just told her the truth:
+
+                        I own the Sinners Anonymous Hotline.
+
+                        And I’ve listened to every call she’s ever made.
+                    </span>
+                </p>
+
+                <button onclick="toggleText(this)">Show More</button>
+
+            </article>
+
+            <!--Book 4
+
+  <article class="book-card">
+
+                <img src="picture/sinner condemed.jpg" alt="sinner-condemed" class="book-cover">
+
+                <h3 class="book-title">Sinner Condemed</h3>
+
+                <div class="book-rating" aria-label="5 out of 5 stars">★★★★★</div>
+
+                <p class="book-description">No good ever comes from a red-head in a stolen dress with her worldly possessions at her feet.
+                    <span class="dots">...</span>
+                    <span class="more-text" style="display:none">I should have known she was trouble when smoke and sin followed her into my bar and she challenged me to a game.
+
+She may have won my watch, but she started a war.
+
+As she slipped my Breitling off my wrist and onto her own, she gleefully announced she was the luckiest girl in the world.
+
+Yeah, lucky to everyone but me.
+
+Because the moment her muddy boots stomped down the stairs and up my spine, my empire started to crumble.
+
+My cashmere charm is wrinkling.
+
+My gentlemanly facade is cracking.
+
+My enemies are closing in.
+
+Maybe the gypsy was right:
+
+The Queen of Hearts will drag me down to hell.
+
+At least it’s wonderfully warm among the flames. </span>
+                </p>
+
+                <button onclick="toggleText(this)">Show More</button>
+                
+            </article>
+
+        -->
+
+
+
+        </section>
+    </main>
+
+
+
+    <script src="scipt.js"></script>
+</body>
+
+</html>
